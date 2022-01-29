@@ -1,0 +1,30 @@
+Como jugar:
+
+Al empezar, hay un dado. Apretar en "volver a tirar" vuelve a tirar todos los rerrolls de skills. Cuando las skills te gusten, podes pasar a la segunda fase, donde se te permitiran agregar 10 skills pasivos.
+
+VIDA: 100 + (skills vida *2). Si la vida llega a 0, se perdio el juego. Se restaura después de cada asignación de skills al ganar un combate
+MANA: skills mana *5 . Se restaura después de cada asignación de skills al ganar un combate. El jugador necesita 10 de mana para lanzar un hechizo
+EVASION: skills evasion. 10% de evasion al tener 10 skills, unico efecto por el momento
+DAÑO FISICO: 10 + (skills daño fisico). Aumenta el daño de los golpes
+DAÑO MAGICO: 10 + (skills daño magico). Aumenta el daño magico
+RESISTENCIA FISICA Y MAGICA: Reduce el daño de los ataques entrantes. Solo obtenible por enemigos. Funciona por porcentaje, con un limite de 90% (Al tener 9 skills). Los enemigos empiezan a tener esta stat a partir del cuarto encuentro (ecuacion: daño fisico/resistencia fisica)
+EQUITACION: Si el enemigo tiene una cantidad de skills de equitacion, el combate sera a caballo. Si el oponente posee mas skills que el jugador, sus skills de daño se duplican
+NAVEGACION: mismo que equitacion
+
+MECANICAS COMBATE:
+Espadachin comun: Ataque básico. Golpea y realiza daño, temor (Reduce los daños del oponente en 50%), curación (Gana X puntos, puede sobrepasar su límite de vida, furia (Baja su daño magico y mana a 0 para ganar esos puntos como daño fisico), furia II (Baja su vida a la mitad y obtiene esos puntos como daño)
+
+Mago malvado: Realiza tres diferentes hechizos: Bola de fuego (Hace daño), castigar a los débiles (Reduce tu maná a 0. Si ya esta en 0, te baja 5 skills de inteligencia permanentemente. Si tu inteligencia es de 0, te realiza un daño masivo) y concentración mágica (Aumenta su daño en 25 de forma permanente). Si el mago tiene menos de 10 de mana, usará su turno para cargar maná
+
+A partir del tercer enemigo, los mismos comienzan a tener monturas
+A partir del cuarto enemigo, los mismos comienzan a tener armadura y resistencia mágica
+A FUTURO:
+El jugador va a tener más hechizos (El boton de lanzar hechizo va a desplegar X opciones de hechizos)
+El décimo enemigo será un oponente jefe, con varios tipos de habilidades
+A partir del décimo oponente los enemigos dropearán objetos que otorgan stats y/o diferentes efectos (Tener diferentes tipos de hechizos, posibilidad de usar la maná como escudo, etc)
+A partir del onceavo oponente, los enemigos dropearán objetos consumibles que otorgan stats únicamente para el combate (Scrolls, pociones, etc)
+El jugador tendrá una mochila la cual podrá visitar a su antojo y cambiar sus objetos equipados sin perder su turno. Usar un consumible pasará tu turno
+Los enemigos colocarán maldiciones que reducen daño (De manera porcentual), realizan daño (En función de la vida máxima), otorgarán "daño de rebote", etc
+
+
+IMPORTANTE: NO TOCAR LOS BOTONES MUCHAS VECES, con las animaciones se "rompen" y se ejecuta un mismo turno muchas veces

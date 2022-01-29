@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 5px;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    overflow: hidden;;
+}
+p{
+    color: white;
+}
+button{
+    color: black;
+}
+img{
+    position: fixed ;
+    margin-left: 50px;
+}
+#oscuro{
+    background-color: black;
+    color: white;
+}
+#contenedor{
+    border: 5px solid red;
+}
+#hudSuperior{
+    margin-bottom: 0px;
+    border: 2px solid red; 
+}
+#hudMedio{
+    border: 5px solid red;
+
+}
+#hudInferior{
+    margin-top: 155px;
+    background: rgb(235,235,0);
+    background: radial-gradient(circle, rgba(235,235,0,1) 0%, rgba(0,0,0,1) 100%);
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: .1fr .1fr .1fr;
+    grid-gap: 444px;
+    position: fixed;
+}
+.vidaDisplay{
+    grid-area: vida;
+}
+.manDisplay{
+    grid-area: mana;
+    border: 3px solid blue;
+    background: rgb(0,22,255);
+    background: linear-gradient(90deg, rgba(0,22,255,1) 22%, rgba(116,0,240,1) 72%);
+}
+#stadsV{
+    border: 3px solid red;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(255,0,0,1) 77%);
+    font-size: 30px;
+}
+#stadsM{
+    border: 3px solid blue;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(4,0,255,1) 77%);
+    font-size: 30px;
+} 
+.texto{
+    grid-area: texto;
+    font-size: 50px;
+    color: red;
+}
+.botonAtacar{
+    grid-area: atacar;
+}
+.botonHechizo{
+    grid-area: hechizo;
+}
+.botonInspeccionar{
+    grid-area: inspeccionar;
+}
+.botonZzz{
+    background-color: black;
+    color: gold;
+    height: 100px;
+    width: 130px;
+    position: static;
+}
